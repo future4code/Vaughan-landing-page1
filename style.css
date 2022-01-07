@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -16,4 +22,32 @@ footer {
  left: 0;
  
 
+}
+
+#quem-somos{
+    background-color: #D2C2B0;
+       
+}
+
+#titulo-quem-somos{
+    display: block;
+    background-color: #bda58b;
+    margin: -10px;
+}
+
+button {
+    background-color: rgb(104, 103, 103);
+    color: white;
+    box-shadow:black;
+    border-radius: 8px; 
+    padding: 6px 10px 6px 10px;
+
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    box-shadow:rgb(61, 60, 60);
+    border-radius: 8px; 
+    padding: 6px 10px 6px 10px;
 }
