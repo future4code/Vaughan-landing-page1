@@ -51,6 +51,9 @@ header {
     height: 80px;
     width: 120px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     
      
@@ -86,8 +89,14 @@ header {
 .containerfooter{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     
 }
+
+.containerfooter h2{
+    align-self: center;
+}
+
 .logo-slogam{
     display: flex;
     flex-direction: column;
@@ -213,4 +222,51 @@ textarea {
     display: flex;
     justify-content: center;
 }
+
+/* Sessão Serviços - Orientação financeira */
+
+.orientacao-linha {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    
+}
+
+.orientacao-linha figure {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #757575;
+}
+
+.orientacao-linha figure>img{
+    padding-bottom: 4px;
+
+}
+
+.orientacao-linha figure>figcaption{
+    font-size: 20px;
+}
+
+.cards-orientacao{
+    padding-top: 64px;
+    width: 50%;
+    margin: auto;
+}
+
+.orientacao-financeira p {
+    padding-top: 32px;
+    width: 40%;
+    margin: auto;
+    font-size: 32px;
+    text-align: center;
+}
+
+
 
