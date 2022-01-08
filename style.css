@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 header {
     display: flex;
@@ -96,8 +100,7 @@ footer{
 }
 
 #quem-somos{
-    background-color: #D2C2B0;
-       
+    background-color: #D2C2B0;  
 }
 
 #titulo-quem-somos{
@@ -123,6 +126,7 @@ button {
     padding: 6px 10px 6px 10px;
 
 }
+
 
 
 /* Seção Fale conosco */
@@ -167,4 +171,33 @@ textarea {
     font-size: 16px;
 }
 
+
+
+/* Seção Nosso time */
+
+.contato-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rede-social-time img {
+    width: 32px;
+    height: 32px;
+}
+
+.colaborador-time {
+    display: flex;
+    padding: 8px 32px;
+}
+
+.colaborador-time > img {
+    width: 150px;
+    height: 150px;
+}
+
+.colaboradores {
+    display: flex;
+    justify-content: center;
+}
 
