@@ -106,8 +106,10 @@
 
         <section id="fale-conosco">
             <h2>Fale conosco</h2>
+
+            <form>
                 <fieldset>
-                    <legend>Informações pessoais</legend>
+                    <legend><strong>Informações pessoais</strong></legend>
 
                     <label for="nome">Nome completo:</label>
                     <input id="nome" name="nome" type="text" placeholder="Seu nome completo">
@@ -120,25 +122,28 @@
 
                     <legend>Preferência de contato:</legend>
 
+                    <input class="preferencia-contato" id="whats" type="radio" name="preferenciaContato" value="sms">
                     <label for="whats">Whatsapp</label>
-                    <input id="whats" type="radio" name="preferenciaContato" value="sms">
-
+                    
+                    <input class="preferencia-contato" id="email" type="radio" name="preferenciaContato" value="email">
                     <label for="email">Email</label>
-                    <input id="email" type="radio" name="preferenciaContato" value="email">
 
+                    <input class="preferencia-contato" id="agendar" type="radio" name="preferenciaContato" value="ligacao">
                     <label for="agendaro">Agendar uma visita</label>
-                    <input id="agendar" type="radio" name="preferenciaContato" value="ligacao">
+                    
                 </fieldset>
 
                 <fieldset>
-                    <legend>Informações do seu negócio</legend>
+                    <legend><strong>Informações do seu negócio</strong></legend>
 
-                <label for="empresa">Nome da empresa:</label>
-                <input id="empresa" type="text" placeholder="Nome de seu futuro negócio">
-                
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" rows="10" cols="40" name="textarea" placeholder="Conte aqui tudo o que quiser sobre você e o negócio que você quer abrir"></textarea>
+                    <label for="empresa">Nome da empresa:</label>
+                    <input id="empresa" type="text" placeholder="Nome de seu futuro negócio">
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" rows="10" cols="40" name="textarea" placeholder="Conte aqui tudo o que quiser sobre você e o negócio que você quer abrir!"></textarea>
                 </fieldset>
+
+                <input class="botao-formulario" type="submit" value="Enviar formulário">
             </form>
         </section>
 
