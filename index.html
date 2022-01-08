@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!-- Cabeçalho-->
     <header class="cabecalho">     
             <img class= "Logomarca"  src="images/cortada.png" alt="Logomarca da Upfour" height="100">
        
@@ -21,30 +22,45 @@
         </nav>
     </header>
   
+    <!-- Quem Somos -->
     <main>
-        <section id="quem-somos">       
-            <h2 id="titulo-quem-somos">Quem Somos</h2>
-             <p class="texto"> 
-                 <br>Nascemos a partir da necessidade de que muitos tiveram de se reinventar durante este cenário pandêmico.</br> 
-                 <br>Optemos pelo auxilio principal à moradores de áreas periféricas, que precisaram expandir ou iniciar um negocio.</br> 
-                 <br>Além de empréstimos também disponibilizamos o serviço de Controle e Orientação financeira, para que nosso cliente inicie ou continue seu negócio com o pé direito. </br>
-            </p>
+        <section class="quem-somos">       
+            <h2 class="titulo-quem-somos">Quem Somos</h2>
+              <div class="texto-quem-somos">
+                 <dl> 
+                 <ul>Nascemos a partir da necessidade que muitos tiveram de se reinventar durante este cenário pandêmico.</ul> 
+                 <ul>Optemos pelo auxílio principal à moradores de áreas periféricas, que precisaram expandir ou iniciar um negócio.</ul> 
+                 <ul>Além de empréstimos também disponibilizamos o serviço de Controle e Orientação Financeira, para que nosso cliente inicie seu negócio com o pé direito ou dê continuidade com sucesso. </ul>
+                 </p>
+              </div>
         </section>
         
-        <section id="emprestimo">
-            <h2>Crédito Pessoal</h2>
-             <p>Empréstimo fácil e rápido, do jeitinho que você precisa. </p>
+        <!-- Empréstimos -->
+        <section class="emprestimo">
+            
+            <h2 class="cred-pessoal">Crédito Pessoal</h2>
+            <p id="texto-emprestimo">Empréstimo fácil e rápido, do jeitinho que você precisa. </p>
+ 
+            <h3 id="texto-botão">O valor será utilizado para ... </h3>
+            <button  class="button">Abertura de um novo negócio</button> 
+            <button class="button">Capital de giro</button>
+            
+            <h3 id="texto-botão">De quanto você precisa ? </h3>
+            <button class="button"><R1>R$ 1000</R1></button> 
+            <button class="button"><R1>R$ 2000</R1></button> 
+            <button class="button"><R1>R$ 5000</R1></button> 
+            <button class="button"><R1>R$ 10000</R1></button>
+            
 
-            <h3>O valor será utilizado para ... </h3>
-             <button  class="button">Abertura de um novo negócio</button> <button class="button">Capital de giro</button>
-            
-            <h3>De quanto você precisa ? </h3>
-             <button class="button"><R1>R$ 1000</R1></button> <button class="button"><R1>R$ 2000</R1></button> <button class="button"><R1>R$ 5000</R1></button> <button class="button"><R1>R$ 10000</R1></button>
-            
-            <h3>Em quantas parcelas ? </h3>
-            <button class="button">6 X</button> <button class="button">12 X</button> <button class="button"> 24X</button> <button class="button">36X</button>       
+            <h3 id="texto-botão">Em quantas parcelas ? </h3>
+            <button class="button">6 X</button> 
+            <button class="button">12 X</button> 
+            <button class="button"> 24X</button> 
+            <button class="button">36X</button>  
+               
         </section>
 
+        <!-- Serviços -->
         <section id="servicos">
             
             <h2>Sistema de controle financeiro</h2>

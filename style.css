@@ -99,33 +99,66 @@ footer{
     justify-content: space-between;
 }
 
-#quem-somos{
-    background-color: #D2C2B0;  
+/* campo Quem somos */
+.quem-somos{
+    background-color: #D2C2B0; 
+    padding: 0px 10px 10px 10px; 
 }
 
-#titulo-quem-somos{
-    display: block;
+.titulo-quem-somos{
+    display: flex;
     background-color: #bda58b;
-    margin: -10px;
+    margin: -10px; 
+    padding: 20px;
 }
 
-button {
+.texto-quem-somos{
+   padding: 30px 10px 40px 10px;
+   font-size: 25px;
+}
+
+/*Empréstimos*/
+.emprestimo{
+    background-color: #babac3; 
+    padding: 0px 10px 20px 10px; 
+}
+
+.cred-pessoal{
+    display: flex;
+    background-color: #7a7a8d;
+    margin: 0px -10px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#texto-emprestimo{
+    font-size:25px ;
+    padding:18px 10px 10px 10px;
+}
+
+#texto-botão{
+    font-size:25px;
+    padding: 25px 10px 25px 10px;
+}
+
+
+button{
     background-color: rgb(104, 103, 103);
     color: white;
-    box-shadow:black;
     border-radius: 8px; 
-    padding: 6px 10px 6px 10px;
-
+    padding: 20px 20px 20px 20px;
+    font-size: 15px;
 }
 
 .button:hover {
     background-color: black;
     color: white;
-    box-shadow:rgb(61, 60, 60);
+    box-shadow: 5px 5px rgb(61, 60, 60);
     border-radius: 8px; 
-    padding: 6px 10px 6px 10px;
-
+    padding: 18px 18px 18px 18px;
 }
+
+.
 
 
 
