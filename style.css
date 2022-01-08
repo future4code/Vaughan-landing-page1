@@ -98,6 +98,7 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+
 #quem-somos{
     background-color: #D2C2B0;  
 }
@@ -127,6 +128,51 @@ button {
 }
 
 
+
+/* Seção Fale conosco */
+
+fieldset {
+    width: 50%;
+    margin: auto;
+    padding: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    display: block;
+
+}
+
+label, legend {
+    font-size: 18px;
+}
+
+.preferencia-contato {
+    display: inline;
+    width: 3%;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.botao-formulario {
+    width: 40%;
+    margin: 0.5rem auto 0;
+    font-size: 16px;
+}
+
+#nome::placeholder, #email::placeholder, #telefone::placeholder, #empresa::placeholder, #mensagem::placeholder {
+    font-size: 16px;
+}
+
+
+
 /* Seção Nosso time */
 
 .contato-time {
@@ -154,3 +200,4 @@ button {
     display: flex;
     justify-content: center;
 }
+
