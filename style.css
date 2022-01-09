@@ -223,6 +223,49 @@ textarea {
     justify-content: center;
 }
 
+
+/* Cards Geyson sistema de controle*/
+
+.controle-financeiros{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.financeiro-linha{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    margin: 20px;
+}
+
+#servicos h2{
+    text-align: center;
+}
+
+.financeiro-linha figure{
+    width: 160px;
+    height: 160px;
+}
+
+.financeiro-linha figure>img{
+    border: solid;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #757575;
+}
+
+.financeiro-linha figure> figcaption{
+    font-size: 20px;
+}
+
+.cards-financeiros{
+    padding-top: 64px;
+    width: 50%;
+    margin: auto;
+    
+}
+
+
 /* Sessão Serviços - Orientação financeira */
 
 .orientacao-linha {
@@ -240,9 +283,9 @@ textarea {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: solid;
     border-radius: 8px;
     box-shadow: 5px 5px 5px #757575;
+    border: solid;
 }
 
 .orientacao-linha figure>img{
@@ -267,6 +310,4 @@ textarea {
     font-size: 32px;
     text-align: center;
 }
-
-
 
