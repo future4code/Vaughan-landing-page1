@@ -11,7 +11,7 @@
 <body>
     <!-- Cabeçalho-->
     <header class="cabecalho">     
-            <img class= "Logomarca"  src="images/cortada.png" alt="Logomarca da Upfour" height="100">
+        <img class= "Logomarca"  src="images/cortada.png" alt="Logomarca da Upfour" height="100">
        
         <nav class="menu-principal">
           <a class="botao-menu" href="quem-somos">Home</a>
@@ -22,16 +22,14 @@
         </nav>
     </header>
   
-    <!-- Quem Somos -->
     <main>
+        <!-- Quem Somos -->
         <section class="quem-somos">       
             <h2 class="titulo-quem-somos">Quem Somos</h2>
-              <div class="texto-quem-somos">
-                 <dl> 
+              <div class="texto-quem-somos"> 
                  <ul>Nascemos a partir da necessidade que muitos tiveram de se reinventar durante este cenário pandêmico.</ul> 
                  <ul>Optemos pelo auxílio principal à moradores de áreas periféricas, que precisaram expandir ou iniciar um negócio.</ul> 
                  <ul>Além de empréstimos também disponibilizamos o serviço de Controle e Orientação Financeira, para que nosso cliente inicie seu negócio com o pé direito ou dê continuidade com sucesso. </ul>
-                 </p>
               </div>
         </section>
         
@@ -39,25 +37,28 @@
         <section class="emprestimo">
             
             <h2 class="cred-pessoal">Crédito Pessoal</h2>
-            <p id="texto-emprestimo">Empréstimo fácil e rápido, do jeitinho que você precisa. </p>
- 
-            <h3 id="texto-botão">O valor será utilizado para ... </h3>
-            <button  class="button">Abertura de um novo negócio</button> 
-            <button class="button">Capital de giro</button>
-            
-            <h3 id="texto-botão">De quanto você precisa ? </h3>
-            <button class="button"><R1>R$ 1000</R1></button> 
-            <button class="button"><R1>R$ 2000</R1></button> 
-            <button class="button"><R1>R$ 5000</R1></button> 
-            <button class="button"><R1>R$ 10000</R1></button>
-            
 
-            <h3 id="texto-botão">Em quantas parcelas ? </h3>
-            <button class="button">6 X</button> 
-            <button class="button">12 X</button> 
-            <button class="button"> 24X</button> 
-            <button class="button">36X</button>  
-               
+            <div class="opcoes-emprestimo">
+                <p id="texto-emprestimo">Empréstimo fácil e rápido, do jeitinho que você precisa. </p>
+                
+                <h3 id="texto-botão">O valor será utilizado para ... </h3>
+                <button  class="button"><strong>Abertura de um novo negócio</strong></button> 
+                <button class="button"><strong>Capital de giro</strong></button>
+                
+                <h3 id="texto-botão">De quanto você precisa ? </h3>
+                <button class="button"><R1><strong>R$ 1000</strong></R1></button> 
+                <button class="button"><R1><strong>R$ 2000</strong></R1></button> 
+                <button class="button"><R1><strong>R$ 5000</strong></R1></button> 
+                <button class="button"><R1><strong>R$ 10000</strong></R1></button>
+                
+
+                <h3 id="texto-botão">Em quantas parcelas ? </h3>
+                <button class="button"><strong>6 X</strong></button> 
+                <button class="button"><strong>12 X</strong></button> 
+                <button class="button"><strong>24 X</strong></button> 
+                <button class="button"><strong>36 X</strong></button>  
+            </div>
+                           
         </section>
 
         <!-- Serviços -->
@@ -141,11 +142,13 @@
             </div>
 
         </section>
-
+        
         <section id="fale-conosco">
             <h2>Fale conosco</h2>
 
+            
             <form>
+            
                 <fieldset>
                     <legend><strong>Informações pessoais</strong></legend>
 
@@ -170,7 +173,7 @@
                     <label for="agendaro">Agendar uma visita</label>
                     
                 </fieldset>
-
+            
                 <fieldset>
                     <legend><strong>Informações do seu negócio</strong></legend>
 
@@ -183,6 +186,7 @@
 
                 <input class="botao-formulario" type="submit" value="Enviar formulário">
             </form>
+        
         </section>
 
         <section id="nosso-time">

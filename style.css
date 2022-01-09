@@ -7,6 +7,8 @@ a {
     text-decoration: none;
 }
 
+/* Geyson - Header */
+
 
 header {
     display: flex;
@@ -16,25 +18,21 @@ header {
 
 
 .cabecalho{
- background-color: #1f1f24 ;
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: space-between;;
- padding: 24px;
-
+    background-color: #1f1f24 ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;;
+    padding: 24px;
 
 }
     
-
 .menu-principal{
     display: flex;
-       gap: 40px;
-       font-family: sans-serif;
-       
+    gap: 40px;
+    font-family: sans-serif;
        
 }
-
 
 .botao-menu {
     border-color: #000000;
@@ -54,31 +52,34 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
      
-    
-  }
-  .botao-menu:hover {
-    background-position: 0;
-    background-color:black ;
-    
-  }
-  .Rodape{
-      background-color:#1f1f24 ;
-      font-family: sans-serif;
-      color:#FFFFFF;
-      text-align: left;
+}
+
+.botao-menu:hover {
+  background-position: 0;
+  background-color:black ;
+  
+}
+
+
+  /* Geyson - Footer */
+
+
+.Rodape{
+    background-color:#1f1f24 ;
+    font-family: sans-serif;
+    color:#FFFFFF;
+    text-align: left;
      
  }
  
-
 .frase-final {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     border-color: rgb(247, 240, 240);
     opacity: 30%;   
-}   
+}
+
 .contatos{
     display: flex;
     flex-direction: row;
@@ -100,28 +101,31 @@ header {
 .logo-slogam{
     display: flex;
     flex-direction: column;
-    
-
+  
 }
+
 .logo-slogam p{
     opacity: 20%;
    width: 300px;
    
 }
+
 .botao-redes img{
     width: 60px;
     height: 60px;
     
-
 }
 
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 30px;
 }
 
-/* campo Quem somos */
+
+/* Adri - Quem somos */
+
+
 .quem-somos{
     background-color: #D2C2B0; 
     padding: 0px 10px 10px 10px; 
@@ -132,14 +136,25 @@ footer{
     background-color: #bda58b;
     margin: -10px; 
     padding: 20px;
+    justify-content: center;
 }
 
 .texto-quem-somos{
-   padding: 30px 10px 40px 10px;
+   padding: 52px 10px 40px 10px;
    font-size: 25px;
+   width: 60%;
+   margin: auto;
+   text-align: center;
 }
 
-/*Empréstimos*/
+.texto-quem-somos ul {
+    padding-bottom: 12px;
+}
+
+
+/* Adri - Empréstimos*/
+
+
 .emprestimo{
     background-color: #babac3; 
     padding: 0px 10px 20px 10px; 
@@ -151,6 +166,7 @@ footer{
     margin: 0px -10px;
     padding: 20px;
     font-size: 25px;
+    justify-content: center;
 }
 
 #texto-emprestimo{
@@ -162,7 +178,6 @@ footer{
     font-size:25px;
     padding: 25px 10px 25px 10px;
 }
-
 
 button{
     background-color: rgb(104, 103, 103);
@@ -180,18 +195,39 @@ button{
     padding: 18px 18px 18px 18px;
 }
 
-.
+.opcoes-emprestimo {
+    width: 60%;
+    margin: auto;
+    padding: 36px;
+}
 
+/* Ádria - Seção Fale conosco */
 
+#fale-conosco {
+    background-color: #babac3;
+}
+#fale-conosco h2 {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #7a7a8d;
 
-/* Seção Fale conosco */
+}
 
 fieldset {
     width: 50%;
     margin: auto;
     padding: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+    
 }
 
+fieldset legend {
+    background-color: white;
+    border-radius: 4px;
+}
 input {
     width: 100%;
     padding: 1rem 0px;
@@ -226,9 +262,22 @@ textarea {
     font-size: 16px;
 }
 
+form {
+    padding: 36px 0;
+    
+}
 
 
-/* Seção Nosso time */
+
+/* Ádria - Seção Nosso time */
+
+#nosso-time h2 {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #bda58b;
+}
+
 
 .contato-time {
     display: flex;
@@ -254,10 +303,24 @@ textarea {
 .colaboradores {
     display: flex;
     justify-content: center;
+    padding: 36px 0;
+    background-color: #d2c2b0;
 }
 
 
-/* Cards Geyson sistema de controle*/
+/* Geyson - Sistema de controle*/
+
+
+#servicos {
+    padding-bottom: 20px;
+
+}
+
+#servicos h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
 
 .controle-financeiros{
     display:flex;
@@ -270,47 +333,60 @@ textarea {
     justify-content: space-between;
     padding-bottom: 16px;
     margin: 20px;
-}
-
-#servicos h2{
-    text-align: center;
+    margin-bottom: 28px;
 }
 
 .financeiro-linha figure{
-    width: 160px;
-    height: 160px;
-}
-
-.financeiro-linha figure>img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
     border: solid;
     border-radius: 8px;
     box-shadow: 5px 5px 5px #757575;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.financeiro-linha figure:hover {
+    position:relative;
+    top:-3px;
+    right: -3px;
+}
+
+.financeiro-linha figure>img{
+    padding-bottom: 4px;
 }
 
 .financeiro-linha figure> figcaption{
     font-size: 20px;
+    
 }
 
 .cards-financeiros{
-    padding-top: 64px;
+    padding-top: 36px;
     width: 50%;
     margin: auto;
     
 }
 
 
-/* Sessão Serviços - Orientação financeira */
+/* Ádria - Orientação financeira */
 
 .orientacao-linha {
     display: flex;
     justify-content: space-between;
     padding-bottom: 16px;
+    margin: 20px;
+    margin-bottom: 28px;
     
 }
 
 .orientacao-linha figure {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -319,6 +395,12 @@ textarea {
     border-radius: 8px;
     box-shadow: 5px 5px 5px #757575;
     border: solid;
+}
+
+.orientacao-linha figure:hover {
+    position:relative;
+    top:-3px;
+    right: -3px;
 }
 
 .orientacao-linha figure>img{
@@ -331,16 +413,18 @@ textarea {
 }
 
 .cards-orientacao{
-    padding-top: 64px;
+    padding-top: 36px;
     width: 50%;
     margin: auto;
 }
 
 .orientacao-financeira p {
-    padding-top: 32px;
+    padding-top: 36px;
     width: 40%;
     margin: auto;
-    font-size: 32px;
+    font-size: 25px;
     text-align: center;
 }
+
+
 
