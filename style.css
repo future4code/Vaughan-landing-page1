@@ -142,7 +142,6 @@ footer{
 .titulo-quem-somos{
     display: flex;
     background-color: #bda58b;
-    margin: -10px; 
     padding: 20px;
     justify-content: center;
 }
@@ -442,11 +441,36 @@ form {
 /* Adrieli - Background seção sistema de controle e orientação financeira*/
 
 .serviços{
-    background-image: url(images/background-serviços.jpg) ;
+    background-image: url(images/background-serviços.jpg);
 }
 
 .fundo-serviços{
   background-color: #6b6b6b;
 }
 
+
+/* Responsividade iphone6/7/8 */
+
+@media screen and (max-device-width : 375px) {
+    
+    /* Ádria - Nosso Time */
+    
+    .colaboradores {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    /* Ádria - Fale Conosco */
+    
+    fieldset {
+        width: 80%;
+        
+    }
+     
+    .preferencia-contato {
+        width: 5%;
+    }
+
+}
 
