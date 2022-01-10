@@ -530,27 +530,12 @@ form {
         margin-bottom: 10px;
     }
 
+    .serviços{
+        background-image: url(images/background-servicos-menor.jpg);
+    }
+
   
 }
-
-
-
-#servicos {
-    padding-bottom: 20px;
-}
-
-.controle-financeiros{
-    display:flex;
-    justify-content:space-between;
-}
-
-
-.financeiro-linha figure:hover {
-    position:relative;
-    top:-3px;
-    right: -3px;
-}
-
 
 
 
