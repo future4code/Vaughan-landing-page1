@@ -91,7 +91,7 @@ header {
 }
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px;
 }
 /* Adri - Quem somos */
@@ -288,6 +288,7 @@ form {
     padding-top: 36px;
     width: 50%;
     margin: auto;
+
 }
 
 /* Ádria - Orientação financeira */
