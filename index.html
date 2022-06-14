@@ -9,105 +9,148 @@
 </head>
 
 <body>
+    <!-- Cabeçalho-->
     <header class="cabecalho">     
-            <img class= "Logomarca"  src="images/cortada.png" alt="Logomarca da Upfour" height="100">
+        <img class= "Logomarca"  src="images/cortada.png" alt="Logomarca da Upfour" height="100">
        
         <nav class="menu-principal">
-          <a class="botao-menu" href="quem-somos">Home</a>
-          <a class="botao-menu" href="emprestimo">Empréstimo</a>
-          <a class="botao-menu" href="servicos">Serviços</a>
-          <a class="botao-menu" href="fale-conosco">Fale conosco</a>
-          <a class="botao-menu" href="nosso-time">Contatos</a>
+          <a class="botao-menu" href="#quem-somos">Home</a>
+          <a class="botao-menu" href="#emprestimo">Empréstimo</a>
+          <a class="botao-menu" href="#servicos">Serviços</a>
+          <a class="botao-menu" href="#fale-conosco">Fale conosco</a>
+          <a class="botao-menu" href="#nosso-time">Contatos</a>
         </nav>
     </header>
   
     <main>
-        <section id="quem-somos">       
-            <h2 id="titulo-quem-somos">Quem Somos</h2>
-             <p class="texto"> 
-                 <br>Nascemos a partir da necessidade de que muitos tiveram de se reinventar durante este cenário pandêmico.</br> 
-                 <br>Optemos pelo auxilio principal à moradores de áreas periféricas, que precisaram expandir ou iniciar um negocio.</br> 
-                 <br>Além de empréstimos também disponibilizamos o serviço de Controle e Orientação financeira, para que nosso cliente inicie ou continue seu negócio com o pé direito. </br>
-            </p>
+        <!-- Quem Somos -->
+        <section id="quem-somos" class="quem-somos">       
+            <h2 class="titulo-quem-somos">Quem Somos</h2>
+              <div class="texto-quem-somos"> 
+                 <ul>Nascemos a partir da necessidade que muitos tiveram de se reinventar durante este cenário pandêmico.</ul> 
+                 <ul>Optemos pelo auxílio principal à moradores de áreas periféricas, que precisaram expandir ou iniciar um negócio.</ul> 
+                 <ul>Além de empréstimos também disponibilizamos o serviço de Controle e Orientação Financeira, para que nosso cliente inicie seu negócio com o pé direito ou dê continuidade com sucesso. </ul>
+              </div>
         </section>
         
-        <section id="emprestimo">
-            <h2>Crédito Pessoal</h2>
-             <p>Empréstimo fácil e rápido, do jeitinho que você precisa. </p>
+        <!-- Empréstimos -->
+        <section id="emprestimo" class="emprestimo">
+            
+            <h2 class="cred-pessoal">Crédito Pessoal</h2>
 
-            <h3>O valor será utilizado para ... </h3>
-             <button  class="button">Abertura de um novo negócio</button> <button class="button">Capital de giro</button>
-            
-            <h3>De quanto você precisa ? </h3>
-             <button class="button"><R1>R$ 1000</R1></button> <button class="button"><R1>R$ 2000</R1></button> <button class="button"><R1>R$ 5000</R1></button> <button class="button"><R1>R$ 10000</R1></button>
-            
-            <h3>Em quantas parcelas ? </h3>
-            <button class="button">6 X</button> <button class="button">12 X</button> <button class="button"> 24X</button> <button class="button">36X</button>       
+            <div class="opcoes-emprestimo">
+                <p id="texto-emprestimo">Empréstimo fácil e rápido, do jeitinho que você precisa. </p>
+                
+                <h3 id="texto-botão">O valor será utilizado para ... </h3>
+                <button  class="button"><strong>Abertura de um novo negócio</strong></button> 
+                <button class="button"><strong>Capital de giro</strong></button>
+                
+                <h3 id="texto-botão">De quanto você precisa ? </h3>
+                <button class="button"><R1><strong>R$ 1000</strong></R1></button> 
+                <button class="button"><R1><strong>R$ 2000</strong></R1></button> 
+                <button class="button"><R1><strong>R$ 5000</strong></R1></button> 
+                <button class="button"><R1><strong>R$ 10000</strong></R1></button>
+                
+
+                <h3 id="texto-botão">Em quantas parcelas ? </h3>
+                <button class="button"><strong>6 X</strong></button> 
+                <button class="button"><strong>12 X</strong></button> 
+                <button class="button"><strong>24 X</strong></button> 
+                <button class="button"><strong>36 X</strong></button>  
+            </div>
+                           
         </section>
 
-        <section id="servicos">
-            
-            <h2>Sistema de controle financeiro</h2>
+        <!-- Serviços -->
+        <section id="servicos" class= "serviços">
+            <div class="servicos-controle-financeiro">
+                    <h2 class= "fundo-serviços">Sistema de controle financeiro</h2>
 
-            <figure>
-                <img src="images/produtosServicos.png" alt="Ícone para produtos e serviços">
-                <figcaption>Cadastre seus produtos ou servicos</figcaption>
-            </figure>
-            <figure>
-                <img src="images/client.png" alt="">
-                <figcaption>Cadastre seus clientes e fornecedores</figcaption>
-            </figure>
-            <figure>
-                <img src="images/cobranca.png" alt="Ícone para boleto de cobrança">
-                <figcaption>Emita cobranças</figcaption>
-            </figure>
-            <figure>
-                <img src="images/recibo.png" alt="Ícone para nota fiscal">
-                <figcaption>Emita notas fiscais</figcaption>
-            </figure>
-            <figure>
-                <img src="images/monitore.png" alt="Ícone de análise de resultados">
-                <figcaption>Monitore seus custos, despesas e lucro</figcaption>
-            </figure>
-            <figure>
-                <img src="images/fluxo.png" alt="Ícone para fluxo de caixa">
-                <figcaption>Fluxo de caixa</figcaption>
-            </figure>
+                    <div class="cards-financeiros">
+                      
+                        <div class="financeiro-linha">                          
+                            <figure >
+                                <img src="images/produtosServicos.png" alt="Ícone para produtos e serviços">
+                                <figcaption>Cadastre seus produtos ou servicos</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="images/client.png" alt="">
+                                <figcaption>Cadastre seus clientes e fornecedores</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="images/cobranca.png" alt="Ícone para boleto de cobrança">
+                                <figcaption>Emita cobranças</figcaption>
+                            </figure>
+                        </div>
+                      
+                        <div class="financeiro-linha">
+                            <figure>
+                                <img src="images/recibo.png" alt="Ícone para nota fiscal">
+                                <figcaption>Emita notas fiscais</figcaption>
+                            </figure>
+                            <figure >
+                                <img src="images/monitore.png" alt="Ícone de análise de resultados">
+                                <figcaption>Monitore seus custos, despesas e lucro</figcaption>
+                            </figure>
+                            <figure >
+                                <img src="images/fluxo.png" alt="Ícone para fluxo de caixa">
+                                <figcaption>Fluxo de caixa</figcaption>
+                            </figure> 
+                        </div> 
+                      
+                    </div>
+                </div>
+                   
+            <div class="orientacao-financeira">
 
-            <h2>Orientação financeira</h2>
+                <h2 class= "fundo-serviços">Orientação financeira</h2>
 
-            <p>Além de ter acesso ao nosso sistema de controle financeiro, nossos clientes contam com mentoria sobre o mundo da finanças e dos negócios!</p>
+                <p>Além de ter acesso ao nosso sistema de controle financeiro, nossos clientes contam com mentoria sobre o mundo da finanças e dos negócios!</p>
 
-            <figure>
-                <img src="images/financasPessoais.png" alt="Ícone de carteira para finanças pessoais">
-                <figcaption>Finanças pessoais</figcaption>
-            </figure>
-            <figure>
-                <img src="images/planejamento.png" alt="Ícone para planejamento financeiro">
-                <figcaption>Planejamento financeiro</figcaption>
-            </figure>
-            <figure>
-                <img src="images/satisfacao.png" alt="Ícone para satisfação do cliente">
-                <figcaption>Satisfação do cliente</figcaption>
-            </figure>
-            <figure>
-                <img src="images/venda.png" alt="Ícone para uma venda realizada">
-                <figcaption>Como vender</figcaption>
-            </figure>
-            <figure>
-                <img src="images/marketing.png" alt="Ícone para marketing">
-                <figcaption>Marketing</figcaption>
-            </figure>
-            <figure>
-                <img src="images/mais.png" alt="Ícone para indicar que há muito mais conteúdo">
-                <figcaption>Muito mais</figcaption>
-            </figure>
+                <div class="cards-orientacao">
+                    <div class="orientacao-linha">
+                        <figure>
+                            <img src="images/financasPessoais.png" alt="Ícone de carteira para finanças pessoais">
+                            <figcaption>Finanças pessoais</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/planejamento.png" alt="Ícone para planejamento financeiro">
+                            <figcaption>Planejamento financeiro</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/satisfacao.png" alt="Ícone para satisfação do cliente">
+                            <figcaption>Satisfação do cliente</figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div class="orientacao-linha">
+                        <figure>
+                            <img src="images/venda.png" alt="Ícone para uma venda realizada">
+                            <figcaption>Como vender</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/marketing.png" alt="Ícone para marketing">
+                            <figcaption>Marketing</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/mais.png" alt="Ícone para indicar que há muito mais conteúdo">
+                            <figcaption>Muito mais</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+            </div>
+
         </section>
-
+        
         <section id="fale-conosco">
             <h2>Fale conosco</h2>
+
+            
+            <form>
+            
                 <fieldset>
-                    <legend>Informações pessoais</legend>
+                    <legend><strong>Informações pessoais</strong></legend>
 
                     <label for="nome">Nome completo:</label>
                     <input id="nome" name="nome" type="text" placeholder="Seu nome completo">
@@ -120,69 +163,97 @@
 
                     <legend>Preferência de contato:</legend>
 
+                    <input class="preferencia-contato" id="whats" type="radio" name="preferenciaContato" value="sms">
                     <label for="whats">Whatsapp</label>
-                    <input id="whats" type="radio" name="preferenciaContato" value="sms">
-
+                    
+                    <input class="preferencia-contato" id="email" type="radio" name="preferenciaContato" value="email">
                     <label for="email">Email</label>
-                    <input id="email" type="radio" name="preferenciaContato" value="email">
 
+                    <input class="preferencia-contato" id="agendar" type="radio" name="preferenciaContato" value="ligacao">
                     <label for="agendaro">Agendar uma visita</label>
-                    <input id="agendar" type="radio" name="preferenciaContato" value="ligacao">
+                    
                 </fieldset>
-
+            
                 <fieldset>
-                    <legend>Informações do seu negócio</legend>
+                    <legend><strong>Informações do seu negócio</strong></legend>
 
-                <label for="empresa">Nome da empresa:</label>
-                <input id="empresa" type="text" placeholder="Nome de seu futuro negócio">
-                
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" rows="10" cols="40" name="textarea" placeholder="Conte aqui tudo o que quiser sobre você e o negócio que você quer abrir"></textarea>
+                    <label for="empresa">Nome da empresa:</label>
+                    <input id="empresa" type="text" placeholder="Nome de seu futuro negócio">
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" rows="10" cols="40" name="textarea" placeholder="Conte aqui tudo o que quiser sobre você e o negócio que você quer abrir!"></textarea>
                 </fieldset>
+
+                <input class="botao-formulario" type="submit" value="Enviar formulário">
             </form>
+        
         </section>
 
         <section id="nosso-time">
 
             <h2>Nosso time</h2>
 
-            <div>
-                <!-- Informações da Ádria-->
-                <img src="images/avatar-adria.png" alt="Avatar de nossa colaboradora" style="width: 100px; height: 100px;">
+            <div class="colaboradores">
+                <div class="colaborador-time">
+                    <!-- Informações da Ádria-->
+                    <img src="images/avatar-adria.png" alt="Avatar de nossa colaboradora">
 
-                <a href="https://www.linkedin.com/in/adria-tavares/" target="_blank" title="Vamos nos conectar">
-                    <img src="images/linkedin.png" alt="Logo do Linkedin">
-                </a>
-                
-                <a href="https://github.com/adriatls" target="_blank" title="Vamos nos conectar">
-                    <img src="images/github.png" alt="Logo do GitHub">
-                </a>
-            </div>
+                    <div class="contato-time">
+                        <a class="rede-social-time" href="https://www.linkedin.com/in/adria-tavares/" target="_blank" title="Vamos nos conectar">
+                            <img src="images/linkedin.png" alt="Logo do Linkedin">
+                        </a>
 
-            <!-- Informações da Adri-->
-            <div>
-                <img src="images/avatar-adri.png" alt="Avatar de nossa colaboradora" style="width: 100px; height: 100px;">
+                        <a class="rede-social-time" href="https://github.com/adriatls" target="_blank" title="Vamos nos conectar">
+                            <img src="images/github.png" alt="Logo do GitHub">
+                        </a>
 
-                <a href="https://www.linkedin.com/in/adrieli-lavratti-figueiredo/" target="_blank" title="Vamos nos conectar">
-                    <img src="images/linkedin.png" alt="Logo do Linkedin">
-                </a>
-                
-                <a href="https://github.com/adritti2911" target="_blank" title="Vamos nos conectar">
-                    <img src="images/github.png" alt="Logo do GitHub">
-                </a>
-            </div>
+                        <a class="rede-social-time" href="mailto:adria.tavares28@gmail.com?subject=Assunto" title="Mande um email para mim">
+                            <img src="images/email.png" alt="Logotipo genérico para email">
+                        </a>
+                    </div>
 
-            <!-- Informações do Geyson -->
-            <div>
-                <img src="images/avatar-geyson.png" alt="Avatar de nosso colaborador" style="width: 100px; height: 100px;">
+                </div>
 
-                <a href="linkedin de Geyson" target="_blank" title="Vamos nos conectar">
-                    <img src="images/linkedin.png" alt="Logo do Linkedin">
-                </a>
-                
-                <a href="https://github.com/GeysonMes" target="_blank" title="Vamos nos conectar">
-                    <img src="images/github.png" alt="Logo do GitHub">
-                </a>
+                <!-- Informações da Adri-->
+                <div class="colaborador-time">
+                    <img src="images/avatar-adri.png" alt="Avatar de nossa colaboradora">
+
+                    <div class="contato-time">
+                        <a class="rede-social-time" href="https://www.linkedin.com/in/adrieli-lavratti-figueiredo/" target="_blank" title="Vamos nos conectar">
+                            <img src="images/linkedin.png" alt="Logo do Linkedin">
+                        </a>
+
+                        <a class="rede-social-time" href="https://github.com/adritti2911" target="_blank" title="Vamos nos conectar">
+                            <img src="images/github.png" alt="Logo do GitHub">
+                        </a>
+
+                        <a class="rede-social-time" href="mailto:adritti@hotmail.com?subject=Assunto" title="Mande um email para mim">
+                            <img src="images/email.png" alt="Logotipo genérico para email">
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Informações do Geyson -->
+                <div class="colaborador-time">
+                    <img src="images/avatar-geyson.png" alt="Avatar de nosso colaborador">
+
+                    <div class="contato-time">
+                        <a class="rede-social-time" href="#" target="_blank" title="Vamos nos conectar">
+                            <img src="images/linkedin.png" alt="Logo do Linkedin">
+                        </a>
+
+                        <a class="rede-social-time" href="https://github.com/GeysonMes" target="_blank" title="Vamos nos conectar">
+                            <img src="images/github.png" alt="Logo do GitHub">
+                        </a>
+
+                        <a class="rede-social-time" href="mailto:geysonsousa17@gmail.com?subject=Assunto" title="Mande um email para mim">
+                            <img src="images/email.png" alt="Logotipo genérico para email">
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
 
         </section>
